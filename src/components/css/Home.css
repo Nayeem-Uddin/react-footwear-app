@@ -1,0 +1,89 @@
+.hero img{
+    height: 350px;
+}
+.main-body{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-body{
+    box-shadow: 0 0 5px #ccc;
+    padding: 15px 10px;
+}
+.images{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.images img{
+    max-width: 400px;
+}
+
+.hand-picked{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.hand-picked .bar-text{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgb(175, 174, 174);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+}
+.bar-text legend{
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.super-magic{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.super-magic img{
+    max-width: 365px;
+}
+.super-magic div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #444;
+    margin-bottom: 15px;
+}
+.super-magic h3{
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+.super-magic p{
+    font-size: 13px;
+    color: rgb(48, 48, 48);
+    margin-bottom: 15px;
+}
+.super-magic .super-magic-btn{
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 2px;
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+}
+.super-magic .super-magic-btn:hover{
+    background: #444;
+}
+
